@@ -14,5 +14,8 @@
       "versionCompatibility": "^(?<compatibility>.*)-(?<version>.*)$"
     }
   ],
-  "additionalBranchPrefix": "{{parentDir}}-"
+  "ignorePresets": [
+    "group:monorepos",
+    "group:recommended"
+  ]
 }
