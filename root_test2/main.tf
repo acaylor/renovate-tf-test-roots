@@ -1,7 +1,7 @@
 # Test module from terraform registry
 module "test_bucket2" {
   source  = "terraform-aws-modules/s3-bucket/aws"
-  version = "~> 3.0"
+  version = "~> 4.0"
 
   bucket = "test-bucket-name2"
   acl = "private"
